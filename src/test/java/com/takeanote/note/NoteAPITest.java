@@ -15,7 +15,7 @@ import io.restassured.response.Response;
 
 public class NoteAPITest {
 
-	private static final String API_ROOT = "http://localhost:8080/api/v1.0/notes";
+	private static final String API_ROOT = "/api/v1.0/notes";
 
     @Test
     public void whenGetAllNotes_thenOK() {
