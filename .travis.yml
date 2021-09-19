@@ -1,9 +1,9 @@
 language: java
 jdk:
-  - openjdk16
+  - openjdk11
 before_install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker pull adoptopenjdk/openjdk16
+  - docker pull openjdk:11-jre-slim-sid
 install:
 - mvn -N io.takari:maven:wrapper
 - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
