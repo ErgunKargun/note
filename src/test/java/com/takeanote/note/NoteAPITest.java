@@ -91,7 +91,7 @@ public class NoteAPITest {
 
 		Response response = RestAssured.given().contentType(MediaType.APPLICATION_JSON_VALUE).body(note).put(location);
 
-		System.out.println("LOCATION: " + location);
+		// System.out.println("LOCATION: " + location);
 		// assertEquals(HttpStatus.CREATED.value(), response.getStatusCode());
 
 		response = RestAssured.get(location);
