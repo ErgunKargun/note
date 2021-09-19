@@ -25,7 +25,7 @@ import static io.restassured.RestAssured.given;
 public class NoteAPITest {
 
 	@LocalServerPort
-	int localServerPort;
+	private int localServerPort;
 	
 	private final String API_ROOT = "/api/v1.0/notes";
 
