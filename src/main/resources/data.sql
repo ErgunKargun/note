@@ -9,6 +9,6 @@ CREATE TABLE note (
   IS_ACTIVE bit NOT NULL
 );
 
-INSERT INTO note (TITLE, BODY, CREATED_DATE, UPDATED_DATE, IS_ACTIVE) VALUES ('First Note', 'Hello first Note!!', '2021-08-30 18:09:59', null, 1);
-INSERT INTO note (TITLE, BODY, CREATED_DATE, UPDATED_DATE, IS_ACTIVE) VALUES ('Second Note', 'Hello deleted second Note!!', '2020-03-08 09:07:24', null, 0);
-INSERT INTO note (TITLE, BODY, CREATED_DATE, UPDATED_DATE, IS_ACTIVE) VALUES ('Third Note', 'Hello third Note!!', '2021-06-27 19:00:04', null, 1);
+-- INSERT INTO note (TITLE, BODY, CREATED_DATE, UPDATED_DATE, IS_ACTIVE) VALUES ('First Note', 'Hello first Note!!', '2021-08-30 18:09:59', null, 1);
+-- INSERT INTO note (TITLE, BODY, CREATED_DATE, UPDATED_DATE, IS_ACTIVE) VALUES ('Second Note', 'Hello deleted second Note!!', '2020-03-08 09:07:24', null, 0);
+-- INSERT INTO note (TITLE, BODY, CREATED_DATE, UPDATED_DATE, IS_ACTIVE) VALUES ('Third Note', 'Hello third Note!!', '2021-06-27 19:00:04', null, 1);
