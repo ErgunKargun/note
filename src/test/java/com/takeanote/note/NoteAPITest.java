@@ -126,7 +126,7 @@ public class NoteAPITest {
 	private String createNoteAsUri(Note note) {
 
 		final Response response = RestAssured.given().contentType(MediaType.APPLICATION_JSON_VALUE).body(note).post(API_ROOT);
-		//System.out.println("RESPONSE: "+response.asPrettyString());
+		// System.out.println("RESPONSE: "+response.asPrettyString());
 		return API_ROOT + "/" + response.jsonPath().get("id");
 	}
 }
