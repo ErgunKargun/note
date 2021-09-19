@@ -11,6 +11,6 @@ public class Controller {
 	@GetMapping
 	public String get() {
 
-		return "TakeANoteApp running..";
+		return "TakeANoteApp running...";
 	}
 }
