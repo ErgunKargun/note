@@ -188,6 +188,9 @@
 						<artifactId>jib-maven-plugin</artifactId>
 						<version>3.1.4</version>
 						<configuration>
+							<from>
+								<image>gcr.io/distroless/java:16</image>
+							</from>
 							<to>
 								<image>registry.hub.docker.com/ergunkargun/takeanoteapp</image>
 								<tags>
