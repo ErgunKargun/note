@@ -3,7 +3,7 @@ jdk:
   - openjdk16
 before_install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker pull openjdk:11-jre-slim-sid
+  - docker pull adoptopenjdk/openjdk16:aarch64-debianslim-jdk-16.0.2_7-slim
 install:
 - mvn -N io.takari:maven:wrapper
 - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
