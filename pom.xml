@@ -171,6 +171,7 @@
 							<processTypes>
 								<web>java -jar target/${project.build.finalName}.jar</web>
 							</processTypes>
+							<jdkVersion>16</jdkVersion>
 						</configuration>
 					</plugin>
 				</plugins>
